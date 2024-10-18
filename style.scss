@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    height: 15vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .BoxLogo {
+        width: 25vw;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 6.5vw;
+
+            @media (max-width: 1000px) {
+                width: 7.5vw;
+            }
+
+            @media (max-width: 700px) {
+                flex-direction: column;
+            }
+        }
+
+        h1 {
+            color: white;
+            font-size: 1.7vw;
+
+            @media (max-width: 1000px) {
+                font-size: 2.1vw;
+            }
+        }
+    }
+
+    nav {
+        width: 40vw;
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5vw;
+
+            @media (max-width: 1000px) {
+                font-size: 2vw;
+            }
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
+//*cabeçalho pronto^
+
+.Text-Img1{ //*Section com texto e imagem 1
+        display: flex;
+        flex-direction: rows;
+        //border: solid 2px red;
+        height: 46.4;
+        background-color:  #FFD9EC;
+        justify-content: space-around;
+     
+}
+
+.Text1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-size: 22px;
+
+}
+.imag1 {
+    border: solid 5px transparent;
+    background-image: url("img/Voce-sabe-o-que-e-outubro-rosa 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24.6vw;
+    height: 44.9vh; /* Ajuste conforme necessário */
+}
+
+.Text-Img2{ //*Section com texto e imagem 2
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    //border: solid 2px red;
+    height: 32.2vh;
+    background-color:  #FF69B4;
+    justify-content: space-around;
+}
+
+.Text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:rgba(228, 238, 241, 1);
+    font-size: 22px;
+}
+.imag2{
+    display: flex;
+    justify-content: space-around;
+    border: solid 5px transparent;
+    background-image: url("img/muitas\ pessoas\ imag2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 29.2vw;
+    height: 28.8vh;
+    }
+    .BoxDeimg{
+        //border: solid 2px red;
+        background-color: #FFD9EC;
+        height: 52.4vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .container-footer{
+        //border: solid 2px red;
+        background-color: #FF69B4;
+        display: flex;
+        color: white;
+        height: 17.6vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Info-rodape{
+        text-align: center;
+    
+    }
+    .simbolo-fita{
+        display: flex;
+        flex-direction: row-reverse;
+    }
